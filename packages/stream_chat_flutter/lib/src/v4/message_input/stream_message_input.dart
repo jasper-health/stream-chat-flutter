@@ -1512,14 +1512,6 @@ class StreamMessageInputState extends State<StreamMessageInput>
               },
             ),
             ListTile(
-              leading: const Icon(Icons.video_library),
-              title: Text(context.translations.uploadAVideoLabel),
-              onTap: () {
-                pickFile(DefaultAttachmentTypes.video);
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
               leading: const Icon(Icons.insert_drive_file),
               title: Text(context.translations.uploadAFileLabel),
               onTap: () {
